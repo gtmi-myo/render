@@ -5,6 +5,7 @@ default: &default
   database: <%= ENV['DB_NAME'] %>
   username: <%= ENV['DB_USER'] %>
   password: <%= ENV['DB_PASSWORD'] %>
+  # host: google.com 
   host: <%= ENV['DB_HOST'] %>
  
 development:
